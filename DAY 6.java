@@ -1,5 +1,3 @@
-//Problem 977 Leetcode
-
 class Solution {
     public int[] mergesortedarray(int[] a, int[] b) {
         
