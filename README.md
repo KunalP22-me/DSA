@@ -5,7 +5,7 @@ This repository documents my **daily problem‑solving practice**, primarily in 
 
 This is **not a theory dump** ❌ — it’s a **hands‑on, pattern‑driven DSA repo** built from real practice problems and revisions.
 
-🔗 **GitHub Repository:** [DSA by Kunal](https://github.com/KunalP22-me/DSA)
+🔗 **GitHub Repository:** [DSA by Kunal Kira](https://github.com/KunalP22-me/DSA)
 
 ---
 
@@ -22,22 +22,16 @@ If you’re preparing for **internships, placements, or interviews**, this repo 
 
 ---
 
-## 📂 Repository Structure (Clickable)
+## 📂 Repository Structure (Current Focus)
 
-Each folder below links directly to practiced problems 👇
+At the moment, this repository mainly focuses on **core high-frequency patterns** used in interviews 👇
 
-| Folder                                                                    | Focus Area                            |
-| ------------------------------------------------------------------------- | ------------------------------------- |
-| 📁 [Arrays](./Arrays)                                                     | Basics, subarrays, Kadane, prefix sum |
-| 📁 [Strings](./Strings)                                                   | Palindrome, frequency, sliding window |
-| 📁 [TwoPointers](./TwoPointers)                                           | Pair problems, optimizations          |
-| 📁 [BinarySearch](./BinarySearch)                                         | Search space & sorted logic           |
-| 📁 [LinkedList](./LinkedList)                                             | Pointers, reversal, cycles            |
-| 📁 [Stack](./Stack)                                                       | Monotonic stack, NGE                  |
-| 📁 [Recursion](./Recursion)                                               | Recursion tree, backtracking          |
-| 📄 [DAY_29_REVISION_UPLOAD_READY.pdf](./DAY_29_REVISION_UPLOAD_READY.pdf) | 📘 Final quick revision               |
+| Folder                              | Focus Area                               |
+| ----------------------------------- | ---------------------------------------- |
+| 📁 [TwoPointers](./TwoPointers)     | Pair problems, palindrome, optimizations |
+| 📁 [SlidingWindow](./SlidingWindow) | Subarray & substring based problems      |
 
-> 📌 Each folder contains **solved problems + variations**, written during daily practice.
+> 📌 These two patterns alone solve a **large percentage of interview DSA questions**. The repo will expand gradually with more topics.
 
 ---
 
@@ -61,24 +55,6 @@ Instead of memorizing hundreds of questions, this repo focuses on **reusable pat
 * [Binary Search – LeetCode](https://leetcode.com/tag/binary-search/)
 
 ---
-
-## 📘 DAY 29 – Consolidated Revision (Most Important)
-
-📄 **[DAY_29_REVISION_UPLOAD_READY.pdf](./DAY_29_REVISION_UPLOAD_READY.pdf)**
-This document is created **directly from the problems & patterns practiced in this repo**.
-
-### What’s inside?
-
-* ✅ Ultra‑short revision points
-* ✅ Tables for time complexity
-* ✅ Ready‑to‑use DSA templates
-* ✅ ⭐ List of hard & frequently asked interview problems
-
-🎯 **Best for:**
-
-* Resume / internship uploads
-* Last‑day interview revision
-* 30–45 minute quick recall
 
 ---
 
