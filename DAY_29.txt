@@ -1,0 +1,124 @@
+
+DAY 29 – QUICK DSA REVISION (EASY • SHORT • IMPORTANT)
+
+========================
+1. ARRAYS
+========================
+• Use two pointers when array is sorted
+• Prefix sum → range sum queries
+• Sliding window → subarray problems
+• Watch out for overflow in sum problems
+
+Important Problems:
+- Two Sum
+- Maximum Subarray (Kadane)
+- Best Time to Buy & Sell Stock
+
+Formula:
+Kadane:
+curr = max(a[i], curr + a[i])
+ans = max(ans, curr)
+
+========================
+2. STRINGS
+========================
+• Strings are immutable in Java
+• Use StringBuilder for modifications
+• ASCII:
+  'a' = 97, 'A' = 65
+
+Patterns:
+- Two pointer → palindrome
+- HashMap → frequency
+- Sorting → anagrams
+
+Hard / Tricky:
+- Longest Common Prefix
+- Longest Substring Without Repeating Characters
+
+========================
+3. TWO POINTER
+========================
+Use when:
+✔ Sorted array
+✔ Pair / triplet
+✔ Palindrome
+
+Template:
+l = 0, r = n-1
+while(l < r):
+  if condition → move both
+  else move one
+
+========================
+4. BINARY SEARCH
+========================
+Works on:
+✔ Sorted array
+✔ Search space problems
+
+Mid formula:
+mid = l + (r-l)/2
+
+Hard:
+- First & Last Position
+- Search in Rotated Array
+
+========================
+5. LINKED LIST
+========================
+• Fast & slow pointer → cycle
+• Dummy node → insertion/deletion
+
+Hard:
+- Reverse LL
+- Detect Cycle
+- Merge Two Sorted LL
+
+========================
+6. STACK
+========================
+Use for:
+✔ Next Greater Element
+✔ Valid Parentheses
+
+Hard:
+- Histogram
+- Stock Span
+
+========================
+7. RECURSION
+========================
+Always define:
+• Base case
+• Recursive call
+
+Stack overflow if base case missing ⚠️
+
+========================
+8. IMPORTANT TABLE
+========================
+Array index: 0-based
+Time Complexities:
+Array access → O(1)
+Binary search → O(log n)
+Nested loops → O(n²)
+
+========================
+9. INTERVIEW REMINDERS
+========================
+✔ Ask constraints
+✔ Dry run example
+✔ Optimize brute force
+✔ Explain approach clearly
+
+========================
+MOST IMPORTANT HARD QUESTIONS
+========================
+⭐ Longest Substring Without Repeat
+⭐ Search in Rotated Sorted Array
+⭐ Merge Intervals
+⭐ Reverse Linked List
+⭐ Kadane’s Algorithm
+
+END – DAY 29 QUICK REVISION
