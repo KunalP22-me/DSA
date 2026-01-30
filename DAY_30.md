@@ -1,30 +1,31 @@
-# 📘 DSA Study Log – Linked List (Java)
+# 📘 DSA Daily Study Log  
+## Topic: Linked List (Java)
 
-Date: 30-01-2026
-Topic: Linked List – Data Structures & Algorithms
-Language: Java
+**📅 Date:** 30 January 2026  
+**👨‍💻 Language:** Java  
+**📚 Subject:** Data Structures & Algorithms  
 
 ---
 
 ## ✅ What I Studied Today
 
-Today I studied **Linked Lists**, one of the most fundamental data structures in DSA.  
-I focused mainly on **Singly Linked List** and understood how nodes are connected using references instead of contiguous memory.
+Today I studied **Linked Lists**, a fundamental data structure in DSA.  
+I focused mainly on **Singly Linked Lists** and learned how nodes are connected using references instead of contiguous memory like arrays.
 
 ---
 
 ## 🧩 Concepts Covered
 
 ### 🔹 What is a Linked List?
-- A linear data structure made of nodes
+- A linear data structure made up of **nodes**
 - Each node contains:
-  - Data
-  - Reference to the next node
+  - **Data**
+  - **Reference (pointer)** to the next node
 
 ### 🔹 Why Linked List?
-- Dynamic size
-- Efficient insertions & deletions
-- No memory wastage like arrays
+- Dynamic size (no fixed length)
+- Efficient insertion and deletion
+- Better memory utilization compared to arrays
 
 ---
 
@@ -63,13 +64,13 @@ class Node {
 - Linear search in linked list
 
 ### 5️⃣ Length of Linked List
-- Count number of nodes
+- Counting total number of nodes
 
 ### 6️⃣ Reverse Linked List ⭐
 - Iterative approach using three pointers:
-  - prev
-  - curr
-  - next
+  - `prev`
+  - `curr`
+  - `next`
 
 ### 7️⃣ Find Middle Node ⭐
 - Slow & Fast pointer technique
@@ -83,33 +84,34 @@ class Node {
 
 | Operation | Time Complexity |
 |---------|----------------|
-Insert at Head | O(1)
-Insert at End | O(n)
-Delete | O(n)
-Search | O(n)
-Reverse | O(n)
+| Insert at Head | O(1) |
+| Insert at End | O(n) |
+| Delete | O(n) |
+| Search | O(n) |
+| Reverse | O(n) |
 
 ---
 
 ## 🧠 Key Learnings
 
-- Linked List does not support random access
-- Pointer manipulation is the core skill
-- Two-pointer technique is very powerful
-- Frequently asked in interviews & coding rounds
+- Linked Lists do **not** support random access
+- Pointer manipulation is the core concept
+- Two-pointer technique is extremely useful
+- Very common in interviews and coding rounds
 
 ---
 
 ## 🚀 Next Plan
+
 - Practice Linked List problems on LeetCode
 - Learn Doubly & Circular Linked List
-- Implement problems like:
-  - Reverse in groups
-  - Merge two sorted lists
+- Solve problems like:
+  - Reverse linked list in groups
+  - Merge two sorted linked lists
   - Detect & remove cycle
 
 ---
 
 📌 *This file is part of my daily DSA learning journey and will be updated regularly.*
 
-— Kunal
+**— Kunal**
