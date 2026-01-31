@@ -28,7 +28,8 @@ At the moment, this repository mainly focuses on **core high-frequency patterns*
 
 | Folder                              | Focus Area                               |
 | ----------------------------------- | ---------------------------------------- |
-| 📁 [TwoPointers](./TwoPointers)     | Pair problems, palindrome, optimizations |
+| 📁 [TwoPointers](./https://github.com/KunalP22-me/DSA/2-pointers)     | Pair problems, palindrome, optimizations |
+| 📁 [SlidingWindow](./SlidingWindow) | Subarray & substring based problems      |
 | 📁 [SlidingWindow](./SlidingWindow) | Subarray & substring based problems      |
 
 > 📌 These two patterns alone solve a **large percentage of interview DSA questions**. The repo will expand gradually with more topics.
