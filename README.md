@@ -5,7 +5,7 @@ This repository documents my **daily problem‑solving practice**, primarily in 
 
 This is **not a theory dump** ❌ — it’s a **hands‑on, pattern‑driven DSA repo** built from real practice problems and revisions.
 
-🔗 **GitHub Repository:** [DSA by Kunal Kira](https://github.com/KunalP22-me/DSA)
+🔗 **GitHub Repository:** [DSA by Kunal](https://github.com/KunalP22-me/DSA)
 
 ---
 
@@ -28,9 +28,9 @@ At the moment, this repository mainly focuses on **core high-frequency patterns*
 
 | Folder                              | Focus Area                               |
 | ----------------------------------- | ---------------------------------------- |
-| 📁 [TwoPointers](./https://github.com/KunalP22-me/DSA/2-pointers)     | Pair problems, palindrome, optimizations |
-| 📁 [SlidingWindow](./SlidingWindow) | Subarray & substring based problems      |
-| 📁 [SlidingWindow](./SlidingWindow) | Subarray & substring based problems      |
+| 📁 [TwoPointers](https://github.com/KunalP22-me/DSA/tree/main/2-pointer)     | Pair problems, palindrome, optimizations |
+| 📁 [SlidingWindow](https://github.com/KunalP22-me/DSA/tree/main/Sliding_Window) | Subarray & substring based problems      |
+| 📁 [Slow && Fast Pointer](https://github.com/KunalP22-me/DSA/tree/main/Slow_&&_Fast_Pointers) | Cycle, Loop & Reapeted Behavior    |
 
 > 📌 These two patterns alone solve a **large percentage of interview DSA questions**. The repo will expand gradually with more topics.
 
