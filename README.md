@@ -30,7 +30,7 @@ At the moment, this repository mainly focuses on **core high-frequency patterns*
 | ----------------------------------- | ---------------------------------------- |
 | 📁 [TwoPointers](https://github.com/KunalP22-me/DSA/tree/main/2-pointer)     | Pair problems, palindrome, optimizations |
 | 📁 [SlidingWindow](https://github.com/KunalP22-me/DSA/tree/main/Sliding%20Window) | Subarray & substring based problems      |
-| 📁 [Slow && Fast Pointer](https://github.com/KunalP22-me/DSA/tree/main/Slow%20%26%20Fast%20Pointers) | Cycle, Loop & Reapeted Behavior    |
+| 📁 [Slow & Fast Pointer](https://github.com/KunalP22-me/DSA/tree/main/Slow%20%26%20Fast%20Pointers) | Cycle, Loop & Reapeted Behavior    |
 
 > 📌 These two patterns alone solve a **large percentage of interview DSA questions**. The repo will expand gradually with more topics.
 
