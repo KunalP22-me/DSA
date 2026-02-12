@@ -1,87 +1,134 @@
-# 🚀 DSA – Daily Practice & Smart Revision Repository
+<!-- ================= HEADER ================= -->
 
-Welcome to my **Data Structures & Algorithms (DSA)** journey 📈  
-This repository documents my **daily problem-solving practice**, primarily in **Java**, organized for **clarity, consistency, and interview-ready revision**.
+<h1 align="center">🚀 DSA – Daily Practice & Smart Revision</h1>
 
-This is **not a theory dump** ❌ — it’s a **hands-on, pattern-driven DSA repo** built from real practice problems and revisions.
+<p align="center">
+<b>Pattern-Driven Data Structures & Algorithms Practice in Java</b><br>
+Built for Interviews • Placements • Consistent Growth
+</p>
 
-🔗 **GitHub Repository:** [DSA by Kunal](https://github.com/KunalP22-me/DSA)
+<p align="center">
 
----
+<img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java">
+<img src="https://img.shields.io/badge/Focus-DSA-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/Practice-Daily-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Interview-Ready-red?style=for-the-badge">
 
-## 🎯 Why This Repository Exists
+</p>
 
-I built this repository to:
-
-* 🧠 Practice **DSA daily** with discipline  
-* 🗂 Keep **clean, topic-wise solutions**  
-* ⚡ Enable **fast revision before interviews & exams**  
-* 📊 Publicly track **consistency and growth** on GitHub  
-
-If you’re preparing for **internships, placements, or interviews**, this repo is meant to be **skimmed, revised, and reused**.
-
----
-
-## 📂 Repository Structure (Current Focus)
-
-This repository currently focuses on **high-frequency interview patterns** 👇
-
-| Folder | Focus Area |
-|---|---|
-| 📁 TwoPointers | Pair problems, palindrome, optimizations |
-| 📁 SlidingWindow | Subarray & substring based problems |
-| 📁 Slow & Fast Pointer | Cycle detection, loops, repeated behavior |
-| 📁 Kadane’s Algorithm | Maximum / minimum subarray, product, frequency |
-| 📁 Prefix Sum | Range sum queries, cumulative arrays, subarray sums |
-
-> 📌 These patterns solve a **large percentage of interview DSA questions**. The repository will expand gradually.
+<p align="center">
+🔗 <b>Repository:</b> https://github.com/KunalP22-me/DSA
+</p>
 
 ---
 
-## 🧠 Core DSA Patterns Used (Interview-Centric)
+# 📌 About This Repository
 
-Instead of memorizing hundreds of questions, this repo focuses on **reusable patterns** that repeatedly appear in interviews.
+This is my **structured DSA learning system** — not theory dumping.
 
-| Pattern | Where Used | Typical Problems |
-|---|---|---|
-| **Two Pointer** | Arrays, Strings | Palindrome, Two Sum |
-| **Sliding Window** | Arrays, Strings | Longest Substring |
-| **Binary Search** | Sorted Arrays | First–Last Position |
-| **Fast & Slow Pointer** | Linked List | Cycle Detection |
-| **Monotonic Stack** | Stack | Next Greater Element |
-| **Kadane’s Algorithm** | Arrays | Maximum Subarray |
-| **Prefix Sum** | Arrays | Range Sum, Subarray Sum = K |
-| **Recursion Tree** | Recursion | Subsets, Permutations |
+It contains:
 
-🔗 Learn patterns here:
+✔ Real practice problems
+✔ Pattern-based solutions
+✔ Clean Java implementations
+✔ Fast revision structure
+✔ Interview-focused topics
 
-* https://leetcode.com/tag/two-pointers/  
-* https://leetcode.com/tag/sliding-window/  
-* https://leetcode.com/tag/binary-search/  
+Built to train **problem-solving thinking**, not memorization.
 
 ---
 
-## 🧮 Common DSA Templates (Quick Recall)
+# 🎯 Goals
 
-### 🔎 Binary Search
+🧠 Build strong DSA intuition
+📅 Maintain daily consistency
+⚡ Revise quickly before interviews
+📊 Track progress publicly
+🎯 Master high-frequency patterns
+
+---
+
+# 🗂 Repository Structure
+
+<table>
+<tr>
+<th>Folder</th>
+<th>Concept</th>
+<th>Purpose</th>
+</tr>
+
+<tr>
+<td>📁 TwoPointers</td>
+<td>Dual traversal logic</td>
+<td>Pair search, palindrome, optimization</td>
+</tr>
+
+<tr>
+<td>📁 SlidingWindow</td>
+<td>Dynamic subarray control</td>
+<td>Substring & range problems</td>
+</tr>
+
+<tr>
+<td>📁 Slow & Fast Pointer</td>
+<td>Cycle detection</td>
+<td>Linked list loops</td>
+</tr>
+
+<tr>
+<td>📁 Kadane’s Algorithm</td>
+<td>Max / Min subarray</td>
+<td>Optimization problems</td>
+</tr>
+
+<tr>
+<td>📁 Prefix Sum</td>
+<td>Cumulative sums</td>
+<td>Range queries & subarray sums</td>
+</tr>
+
+</table>
+
+---
+
+# 🧠 Core Interview Patterns
+
+| Pattern             | Use Case             |
+| ------------------- | -------------------- |
+| Two Pointer         | Pair relationships   |
+| Sliding Window      | Continuous ranges    |
+| Binary Search       | Sorted search space  |
+| Fast & Slow Pointer | Cycles               |
+| Kadane              | Optimal subarray     |
+| Prefix Sum          | Range queries        |
+| Monotonic Stack     | Next greater element |
+| Recursion Tree      | Combinatorics        |
+
+---
+
+# ⚡ Quick Algorithm Templates
+
+## 🔎 Binary Search
+
 ```java
-mid = l + (r - l) / 2;
+int mid = l + (r - l) / 2;
 ```
 
 ---
 
-### 👣 Two Pointer
+## 👣 Two Pointer
+
 ```java
 int l = 0, r = n - 1;
-
 while (l < r) {
-   // move pointers based on condition
+    // move pointers
 }
 ```
 
 ---
 
-### ⚡ Kadane’s Algorithm (Maximum Subarray)
+## ⚡ Kadane’s Algorithm
+
 ```java
 int curr = arr[0];
 int ans = arr[0];
@@ -92,14 +139,10 @@ for (int i = 1; i < arr.length; i++) {
 }
 ```
 
-**Used for:**
-* Maximum subarray sum
-* Minimum subarray (variation)
-* Maximum product subarray (variation)
-
 ---
 
-### ➕ Prefix Sum (Range Sum Optimization)
+## ➕ Prefix Sum
+
 ```java
 int[] prefix = new int[n];
 
@@ -110,58 +153,82 @@ for (int i = 1; i < n; i++) {
 }
 ```
 
-**Range sum query (L to R):**
+Range Sum:
+
 ```java
 int sum = prefix[R] - (L > 0 ? prefix[L - 1] : 0);
 ```
 
-**Used for:**
-* Range sum queries
-* Subarray sum = K
-* Cumulative frequency
-* Difference arrays
+---
+
+# ⭐ Must-Do Interview Problems
+
+✔ Longest Substring Without Repeating Characters
+✔ Search in Rotated Sorted Array
+✔ Merge Intervals
+✔ Reverse Linked List
+✔ Maximum Subarray
+✔ Subarray Sum Equals K
 
 ---
 
-## ⭐ Must-Do Interview Problems
+# 📊 Complexity Cheatsheet
 
-These problems (or their variations) are **practiced directly in this repo** and are commonly asked:
-
-* ⭐ Longest Substring Without Repeating Characters  
-* ⭐ Search in Rotated Sorted Array  
-* ⭐ Merge Intervals  
-* ⭐ Reverse Linked List  
-* ⭐ Maximum Subarray (Kadane)  
-* ⭐ Subarray Sum Equals K (Prefix Sum)  
-
----
-
-## 📊 Time & Space Complexity Cheatsheet
-
-| Operation | Complexity |
-|---|---|
-| Array Access | O(1) |
-| Binary Search | O(log n) |
-| Sliding Window | O(n) |
-| Prefix Sum Query | O(1) |
-| Nested Loops | O(n²) |
+| Operation        | Time     |
+| ---------------- | -------- |
+| Array Access     | O(1)     |
+| Binary Search    | O(log n) |
+| Sliding Window   | O(n)     |
+| Prefix Sum Query | O(1)     |
+| Nested Loops     | O(n²)    |
 
 ---
 
-## 🛠 How to Use This Repository (Recommended Flow)
+# 📈 Learning Progress
 
-1. 📂 Open a topic folder (example: TwoPointers / Prefix Sum)  
-2. 🧠 Understand the **pattern**, not just the solution  
-3. 📘 Revise using notes or practice PDFs  
-4. ⭐ Re-practice hard problems regularly  
+### Pattern Mastery
+
+Two Pointer
+██████████████░░ 85%
+
+Sliding Window
+████████████░░░░ 70%
+
+Kadane
+████████████████ 100%
+
+Prefix Sum
+████████████░░░░ 75%
+
+Binary Search
+██████████░░░░░░ 60%
 
 ---
 
-## 👤 Author
+# 🛠 How To Use This Repo
 
-**Kunal**  
-Backend • Java • DSA • Interview Preparation
+1️⃣ Pick a topic folder
+2️⃣ Understand the pattern
+3️⃣ Study solution logic
+4️⃣ Re-solve without help
+5️⃣ Revise weekly
 
 ---
 
-⭐ If this repository helped you, consider **starring ⭐ the repo** — it motivates consistent learning!
+# 👨‍💻 Author
+
+**Kunal**
+Backend Developer • Java • DSA
+Focused on interview-level problem solving
+
+---
+
+# ⭐ Support
+
+If this repository helps you:
+
+👉 Star the repo
+👉 Follow the journey
+👉 Stay consistent
+
+Consistency beats intensity.
