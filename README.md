@@ -17,7 +17,7 @@ Built for Interviews • Placements • Consistent Growth
 </p>
 
 <p align="center">
-🔗 <b>Repository:</b> https://github.com/KunalP22-me/DSA
+🔗 <b>Repository:</b> <a href="https://github.com/KunalP22-me/DSA">DSA by Kunal</a>
 </p>
 
 ---
@@ -26,13 +26,11 @@ Built for Interviews • Placements • Consistent Growth
 
 This is my **structured DSA learning system** — not theory dumping.
 
-It contains:
-
-✔ Real practice problems
-✔ Pattern-based solutions
-✔ Clean Java implementations
-✔ Fast revision structure
-✔ Interview-focused topics
+✔ Real practice problems  
+✔ Pattern-based solutions  
+✔ Clean Java implementations  
+✔ Fast revision structure  
+✔ Interview-focused topics  
 
 Built to train **problem-solving thinking**, not memorization.
 
@@ -40,15 +38,15 @@ Built to train **problem-solving thinking**, not memorization.
 
 # 🎯 Goals
 
-🧠 Build strong DSA intuition
-📅 Maintain daily consistency
-⚡ Revise quickly before interviews
-📊 Track progress publicly
-🎯 Master high-frequency patterns
+🧠 Build strong DSA intuition  
+📅 Maintain daily consistency  
+⚡ Revise quickly before interviews  
+📊 Track progress publicly  
+🎯 Master high-frequency patterns  
 
 ---
 
-# 🗂 Repository Structure
+# 🗂 Repository Structure (Clickable Navigation)
 
 <table>
 <tr>
@@ -58,31 +56,31 @@ Built to train **problem-solving thinking**, not memorization.
 </tr>
 
 <tr>
-<td>📁 TwoPointers</td>
+<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/2-pointer">TwoPointers</a></td>
 <td>Dual traversal logic</td>
 <td>Pair search, palindrome, optimization</td>
 </tr>
 
 <tr>
-<td>📁 SlidingWindow</td>
+<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Sliding%20Window">SlidingWindow</a></td>
 <td>Dynamic subarray control</td>
 <td>Substring & range problems</td>
 </tr>
 
 <tr>
-<td>📁 Slow & Fast Pointer</td>
+<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Slow%20%26%20Fast%20Pointers">Slow & Fast Pointer</a></td>
 <td>Cycle detection</td>
 <td>Linked list loops</td>
 </tr>
 
 <tr>
-<td>📁 Kadane’s Algorithm</td>
+<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Kadane's%20Algo">Kadane’s Algorithm</a></td>
 <td>Max / Min subarray</td>
 <td>Optimization problems</td>
 </tr>
 
 <tr>
-<td>📁 Prefix Sum</td>
+<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Prefix%20Sum">Prefix Sum</a></td>
 <td>Cumulative sums</td>
 <td>Range queries & subarray sums</td>
 </tr>
@@ -93,23 +91,22 @@ Built to train **problem-solving thinking**, not memorization.
 
 # 🧠 Core Interview Patterns
 
-| Pattern             | Use Case             |
-| ------------------- | -------------------- |
-| Two Pointer         | Pair relationships   |
-| Sliding Window      | Continuous ranges    |
-| Binary Search       | Sorted search space  |
-| Fast & Slow Pointer | Cycles               |
-| Kadane              | Optimal subarray     |
-| Prefix Sum          | Range queries        |
-| Monotonic Stack     | Next greater element |
-| Recursion Tree      | Combinatorics        |
+| Pattern | Use Case |
+|---|---|
+| Two Pointer | Pair relationships |
+| Sliding Window | Continuous ranges |
+| Binary Search | Sorted search space |
+| Fast & Slow Pointer | Cycles |
+| Kadane | Optimal subarray |
+| Prefix Sum | Range queries |
+| Monotonic Stack | Next greater element |
+| Recursion Tree | Combinatorics |
 
 ---
 
 # ⚡ Quick Algorithm Templates
 
 ## 🔎 Binary Search
-
 ```java
 int mid = l + (r - l) / 2;
 ```
@@ -117,7 +114,6 @@ int mid = l + (r - l) / 2;
 ---
 
 ## 👣 Two Pointer
-
 ```java
 int l = 0, r = n - 1;
 while (l < r) {
@@ -128,7 +124,6 @@ while (l < r) {
 ---
 
 ## ⚡ Kadane’s Algorithm
-
 ```java
 int curr = arr[0];
 int ans = arr[0];
@@ -142,7 +137,6 @@ for (int i = 1; i < arr.length; i++) {
 ---
 
 ## ➕ Prefix Sum
-
 ```java
 int[] prefix = new int[n];
 
@@ -154,7 +148,6 @@ for (int i = 1; i < n; i++) {
 ```
 
 Range Sum:
-
 ```java
 int sum = prefix[R] - (L > 0 ? prefix[L - 1] : 0);
 ```
@@ -163,63 +156,50 @@ int sum = prefix[R] - (L > 0 ? prefix[L - 1] : 0);
 
 # ⭐ Must-Do Interview Problems
 
-✔ Longest Substring Without Repeating Characters
-✔ Search in Rotated Sorted Array
-✔ Merge Intervals
-✔ Reverse Linked List
-✔ Maximum Subarray
-✔ Subarray Sum Equals K
+✔ Longest Substring Without Repeating Characters  
+✔ Search in Rotated Sorted Array  
+✔ Merge Intervals  
+✔ Reverse Linked List  
+✔ Maximum Subarray  
+✔ Subarray Sum Equals K  
 
 ---
 
 # 📊 Complexity Cheatsheet
 
-| Operation        | Time     |
-| ---------------- | -------- |
-| Array Access     | O(1)     |
-| Binary Search    | O(log n) |
-| Sliding Window   | O(n)     |
-| Prefix Sum Query | O(1)     |
-| Nested Loops     | O(n²)    |
+| Operation | Time |
+|---|---|
+| Array Access | O(1) |
+| Binary Search | O(log n) |
+| Sliding Window | O(n) |
+| Prefix Sum Query | O(1) |
+| Nested Loops | O(n²) |
 
 ---
 
 # 📈 Learning Progress
 
-### Pattern Mastery
-
-Two Pointer
+Two Pointer  
 ██████████████░░ 85%
 
-Sliding Window
+Sliding Window  
 ████████████░░░░ 70%
 
-Kadane
+Kadane  
 ████████████████ 100%
 
-Prefix Sum
+Prefix Sum  
 ████████████░░░░ 75%
 
-Binary Search
+Binary Search  
 ██████████░░░░░░ 60%
-
----
-
-# 🛠 How To Use This Repo
-
-1️⃣ Pick a topic folder
-2️⃣ Understand the pattern
-3️⃣ Study solution logic
-4️⃣ Re-solve without help
-5️⃣ Revise weekly
 
 ---
 
 # 👨‍💻 Author
 
-**Kunal**
-Backend Developer • Java • DSA
-Focused on interview-level problem solving
+**Kunal**  
+Backend Developer • Java • DSA  
 
 ---
 
@@ -227,8 +207,8 @@ Focused on interview-level problem solving
 
 If this repository helps you:
 
-👉 Star the repo
-👉 Follow the journey
-👉 Stay consistent
+👉 Star the repo  
+👉 Follow the journey  
+👉 Stay consistent  
 
 Consistency beats intensity.
