@@ -8,7 +8,7 @@ class Solution {
 
         for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
-        }
+        } 
 
         int n = nums.length;
 
