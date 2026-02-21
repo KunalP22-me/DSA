@@ -10,4 +10,4 @@ Given two intervals (`a` and `b`), there will be six different ways the two inte
 6. `a` and `b` do not overlap
 
 Understanding the above six cases will help us in solving all intervals related problems.
-<img width="267" height="189" alt="download" src="https://github.com/user-attachments/assets/5df6f877-1481-4b81-9fdd-8636405482f3" />
+![](./"C:\Users\Lenovo\Desktop\DSA\download.png")
