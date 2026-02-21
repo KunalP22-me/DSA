@@ -9,5 +9,4 @@ Given two intervals (`a` and `b`), there will be six different ways the two inte
 5. `b` completly overlaps `a`
 6. `a` and `b` do not overlap
 
-Understanding the above six cases will help us in solving all intervals related problems.
 ![](./download.png)
