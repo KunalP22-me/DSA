@@ -85,6 +85,12 @@ Built to train **problem-solving thinking**, not memorization.
 <td>Range queries & subarray sums</td>
 </tr>
 
+<tr>
+<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Merge%20Interval">Merge Interval</a></td>
+<td>Overlapping Array</td>
+<td>Range, 2D array</td>
+</tr>
+
 </table>
 
 ---
