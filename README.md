@@ -93,11 +93,6 @@ This repository is built to improve **problem-solving intuition**, not memorizat
 <td>2D range problems</td>
 </tr>
 
-<tr>
-<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Binary%20Search">Binary Search</a></td>
-<td>Search space reduction</td>
-<td>Sorted & answer-space problems</td>
-</tr>
 
 </table>
 
@@ -109,7 +104,6 @@ This repository is built to improve **problem-solving intuition**, not memorizat
 | ------------------- | -------------------------------- |
 | Two Pointer         | Pair & comparison problems       |
 | Sliding Window      | Continuous subarrays             |
-| Binary Search       | Sorted or monotonic search space |
 | Fast & Slow Pointer | Cycle detection                  |
 | Kadane              | Optimal subarray                 |
 | Prefix Sum          | Range queries                    |
@@ -120,13 +114,6 @@ This repository is built to improve **problem-solving intuition**, not memorizat
 
 # ⚡ Quick Algorithm Templates
 
-## 🔎 Binary Search
-
-```java
-int mid = l + (r - l) / 2;
-```
-
----
 
 ## 👣 Two Pointer
 
@@ -209,9 +196,6 @@ Kadane
 
 Prefix Sum
 █████████████░░░ 80%
-
-Binary Search
-███████████░░░░░ 65%
 
 Merge Interval
 ████████████░░░░ 70%
