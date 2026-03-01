@@ -1,7 +1,7 @@
 //Problem 2406 Leetcode
-
 class Solution {
     public int minGroups(int[][] intervals) {
+        
         int[] count = new int[1000002];
         
         for(int i = 0; i < intervals.length; i++){
@@ -13,10 +13,11 @@ class Solution {
         }
         
         int max = 0;
-            
-        for(int i = 1; i < 1000002; i++){
-            count[i] += count[i-1];
-            max = Math.max(max, count[i]);
+        int current = 0;
+        
+        for(int i = 0; i < 1000002; i++){
+            current += count[i];
+            max = Math.max(max, current);
         }
         
         return max;
