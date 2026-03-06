@@ -92,6 +92,11 @@ This repository is built to improve **problem-solving intuition**, not memorizat
 <td>Overlapping intervals</td>
 <td>2D range problems</td>
 </tr>
+<tr>
+<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Stack%20Pattern">Stack Pattern</a></td>
+<td>LIFO</td>
+<td>Greater</td>
+</tr>
 
 
 </table>
