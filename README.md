@@ -23,50 +23,51 @@ Built for Interviews • Placements • Consistent Growth
 
 ---
 
-# 📌 About This Repository
+# 💻 System Overview
 
-<p align="center">
+```bash
+> Initializing DSA learning engine...
 
-This repository is my **structured DSA execution system** built for mastering
-**interview-level problem solving using pattern recognition**.
+✔ Pattern Recognition System Loaded
+✔ Interview Question Dataset Connected
+✔ Java Implementation Module Ready
+✔ Progress Tracking Enabled
 
-</p>
+System Status: ACTIVE
+```
 
-✔ Pattern-based problem solving
-✔ Clean & optimized Java implementations
-✔ Interview-focused questions
-✔ Fast revision structure
-✔ Consistency-driven learning system
+This repository is my **structured execution system for mastering Data Structures & Algorithms**.
 
-Instead of solving random problems, this repo organizes questions based on **core interview patterns**.
-
----
-
-# 🎯 Learning Goals
-
-| Goal                   | Purpose                                |
-| ---------------------- | -------------------------------------- |
-| 🧠 Strong Fundamentals | Build deep understanding of DSA        |
-| 📅 Consistency         | Solve problems daily                   |
-| ⚡ Quick Revision       | Easy revision before interviews        |
-| 📊 Public Tracking     | Measure progress                       |
-| 🎯 Pattern Mastery     | Recognize interview patterns instantly |
+Instead of solving random problems, questions are organized by **core interview patterns used by top tech companies.**
 
 ---
 
-# 🗂 Repository Structure
+# 🧠 Learning Objectives
+
+| Module                 | Purpose                          |
+| ---------------------- | -------------------------------- |
+| 🧠 Fundamentals        | Strengthen DSA foundations       |
+| ⚡ Pattern Recognition  | Identify problem types instantly |
+| 📅 Consistency Engine  | Daily problem solving            |
+| 📊 Progress Tracking   | Measure growth                   |
+| 🎯 Interview Readiness | Prepare for coding interviews    |
+
+---
+
+# 🗂 Repository Architecture
 
 <table align="center">
+
 <tr>
-<th>📁 Folder</th>
-<th>🧠 Concept</th>
-<th>🎯 Purpose</th>
+<th>📁 Module</th>
+<th>⚙ Pattern</th>
+<th>💡 Usage</th>
 </tr>
 
 <tr>
 <td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/2-pointer">Two Pointers</a></td>
 <td>Dual traversal</td>
-<td>Pair problems & array optimization</td>
+<td>Pair problems, array optimization</td>
 </tr>
 
 <tr>
@@ -76,7 +77,7 @@ Instead of solving random problems, this repo organizes questions based on **cor
 </tr>
 
 <tr>
-<td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/Slow%20%26%20Fast%20Pointers">Slow & Fast Pointer</a></td>
+<td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/Slow%20%26%20Fast%20Pointers">Fast & Slow Pointer</a></td>
 <td>Cycle detection</td>
 <td>Linked list traversal</td>
 </tr>
@@ -95,38 +96,38 @@ Instead of solving random problems, this repo organizes questions based on **cor
 
 <tr>
 <td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/Merge%20Interval">Merge Interval</a></td>
-<td>Overlapping intervals</td>
-<td>Interval merging</td>
+<td>Overlapping ranges</td>
+<td>Interval merging problems</td>
 </tr>
 
 <tr>
 <td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/Stack%20Pattern">Stack Pattern</a></td>
-<td>LIFO structure</td>
-<td>Next greater element & parentheses</td>
+<td>LIFO</td>
+<td>Next greater, parentheses</td>
 </tr>
 
 </table>
 
 ---
 
-# 🧠 Core Interview Patterns
+# 🧩 Core Interview Patterns
 
-| Pattern             | Used For                          |
-| ------------------- | --------------------------------- |
-| Two Pointer         | Pair problems, sorted arrays      |
-| Sliding Window      | Subarray / substring optimization |
-| Fast & Slow Pointer | Linked list cycles                |
-| Kadane              | Maximum subarray                  |
-| Prefix Sum          | Range queries                     |
-| Merge Interval      | Overlapping intervals             |
-| Stack               | Parentheses, next greater         |
-| Monotonic Stack     | Next greater / smaller element    |
+```
+Two Pointer         → Pair comparison
+Sliding Window      → Continuous subarray problems
+Fast & Slow Pointer → Cycle detection
+Kadane Algorithm    → Maximum subarray
+Prefix Sum          → Range queries
+Merge Interval      → Overlapping intervals
+Stack               → Parentheses / next greater
+Monotonic Stack     → Next greater / smaller element
+```
 
 ---
 
 # ⚡ Algorithm Templates
 
-## 👣 Two Pointer
+### 👣 Two Pointer
 
 ```java
 int l = 0;
@@ -145,7 +146,7 @@ while (l < r) {
 
 ---
 
-## ⚡ Kadane’s Algorithm
+### ⚡ Kadane Algorithm
 
 ```java
 int curr = arr[0];
@@ -161,7 +162,7 @@ for(int i = 1; i < arr.length; i++){
 
 ---
 
-## ➕ Prefix Sum
+### ➕ Prefix Sum
 
 ```java
 int[] prefix = new int[n];
@@ -181,7 +182,7 @@ int sum = prefix[R] - (L > 0 ? prefix[L-1] : 0);
 
 ---
 
-## 📚 Stack Pattern
+### 📚 Stack Pattern
 
 ```java
 Stack<Integer> stack = new Stack<>();
@@ -199,46 +200,48 @@ for(int i = 0; i < n; i++){
 
 Common Uses
 
-• Next Greater Element
-• Next Smaller Element
-• Valid Parentheses
-• Daily Temperatures
-• Histogram Problems
+```
+Next Greater Element
+Next Smaller Element
+Valid Parentheses
+Daily Temperatures
+Largest Rectangle in Histogram
+```
 
 ---
 
-# ⭐ Must-Do Interview Problems
+# ⭐ Must-Solve Interview Problems
 
-| Problem                                        | Pattern              |
-| ---------------------------------------------- | -------------------- |
-| Longest Substring Without Repeating Characters | Sliding Window       |
-| Search in Rotated Sorted Array                 | Binary Search        |
-| Merge Intervals                                | Interval Pattern     |
-| Reverse Linked List                            | Pointer Manipulation |
-| Maximum Subarray                               | Kadane               |
-| Subarray Sum Equals K                          | Prefix Sum           |
-| Next Greater Element                           | Stack                |
-| Daily Temperatures                             | Monotonic Stack      |
-| Valid Parentheses                              | Stack                |
+| Problem                                        | Pattern          |
+| ---------------------------------------------- | ---------------- |
+| Longest Substring Without Repeating Characters | Sliding Window   |
+| Search in Rotated Sorted Array                 | Binary Search    |
+| Merge Intervals                                | Interval Pattern |
+| Reverse Linked List                            | Pointer          |
+| Maximum Subarray                               | Kadane           |
+| Subarray Sum Equals K                          | Prefix Sum       |
+| Next Greater Element                           | Stack            |
+| Daily Temperatures                             | Monotonic Stack  |
+| Valid Parentheses                              | Stack            |
 
 ---
 
 # 📊 Complexity Cheatsheet
 
-| Operation        | Complexity |
-| ---------------- | ---------- |
-| Array Access     | O(1)       |
-| Binary Search    | O(log n)   |
-| Sliding Window   | O(n)       |
-| Prefix Sum Query | O(1)       |
-| Stack Push / Pop | O(1)       |
-| Nested Loops     | O(n²)      |
+| Operation        | Time Complexity |
+| ---------------- | --------------- |
+| Array Access     | O(1)            |
+| Binary Search    | O(log n)        |
+| Sliding Window   | O(n)            |
+| Prefix Sum Query | O(1)            |
+| Stack Push / Pop | O(1)            |
+| Nested Loops     | O(n²)           |
 
 ---
 
-# 📈 Learning Progress
+# 📈 Progress Tracker
 
-```
+```bash
 Two Pointer        ███████████████░ 90%
 Sliding Window     ████████████░░░░ 75%
 Kadane             ████████████████ 100%
@@ -249,13 +252,15 @@ Stack Pattern      ██████████░░░░░░ 60%
 
 ---
 
-# 👨‍💻 Author
+# 🧑‍💻 Author
 
-**Kunal**
-
-Backend Developer • Java • DSA Enthusiast
-
-Focused on mastering **problem-solving patterns for top tech interviews.**
+```
+Name        : Kunal
+Role        : Backend Developer
+Language    : Java
+Focus       : Data Structures & Algorithms
+Goal        : Crack top tech interviews
+```
 
 ---
 
@@ -263,8 +268,10 @@ Focused on mastering **problem-solving patterns for top tech interviews.**
 
 If this repository helps you:
 
-⭐ Star the repo
+```
+⭐ Star the repository
 📈 Follow the journey
 🚀 Stay consistent
+```
 
-**Consistency > Motivation**
+> **Consistency > Motivation**
