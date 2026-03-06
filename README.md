@@ -25,79 +25,84 @@ Built for Interviews • Placements • Consistent Growth
 
 # 📌 About This Repository
 
-This repository is my **structured DSA execution system** focused on **real implementation and pattern recognition**.
+<p align="center">
 
-Instead of randomly solving questions, problems are organized by **core algorithmic patterns** used in technical interviews.
+This repository is my **structured DSA execution system** built for mastering
+**interview-level problem solving using pattern recognition**.
 
-✔ Pattern-based problem solving  
-✔ Clean & optimized Java implementations  
-✔ Interview-focused questions  
-✔ Quick revision friendly structure  
-✔ Consistency-driven learning system  
+</p>
 
-This repository is built to improve **problem-solving intuition**, not memorization.
+✔ Pattern-based problem solving
+✔ Clean & optimized Java implementations
+✔ Interview-focused questions
+✔ Fast revision structure
+✔ Consistency-driven learning system
 
----
-
-# 🎯 Goals
-
-🧠 Strengthen DSA fundamentals  
-📅 Maintain long-term consistency  
-⚡ Fast revision before interviews  
-📊 Public progress tracking  
-🎯 Master high-frequency interview patterns  
+Instead of solving random problems, this repo organizes questions based on **core interview patterns**.
 
 ---
 
-# 🗂 Repository Structure (Clickable Navigation)
+# 🎯 Learning Goals
 
-<table>
+| Goal                   | Purpose                                |
+| ---------------------- | -------------------------------------- |
+| 🧠 Strong Fundamentals | Build deep understanding of DSA        |
+| 📅 Consistency         | Solve problems daily                   |
+| ⚡ Quick Revision       | Easy revision before interviews        |
+| 📊 Public Tracking     | Measure progress                       |
+| 🎯 Pattern Mastery     | Recognize interview patterns instantly |
+
+---
+
+# 🗂 Repository Structure
+
+<table align="center">
 <tr>
-<th>Folder</th>
-<th>Concept</th>
-<th>Purpose</th>
+<th>📁 Folder</th>
+<th>🧠 Concept</th>
+<th>🎯 Purpose</th>
 </tr>
 
 <tr>
-<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/2-pointer">TwoPointers</a></td>
+<td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/2-pointer">Two Pointers</a></td>
 <td>Dual traversal</td>
 <td>Pair problems & array optimization</td>
 </tr>
 
 <tr>
-<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Sliding%20Window">SlidingWindow</a></td>
+<td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/Sliding%20Window">Sliding Window</a></td>
 <td>Dynamic window</td>
 <td>Substring & subarray problems</td>
 </tr>
 
 <tr>
-<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Slow%20%26%20Fast%20Pointers">Slow & Fast Pointer</a></td>
+<td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/Slow%20%26%20Fast%20Pointers">Slow & Fast Pointer</a></td>
 <td>Cycle detection</td>
-<td>Linked list traversal problems</td>
+<td>Linked list traversal</td>
 </tr>
 
 <tr>
-<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Kadane's%20Algo">Kadane’s Algorithm</a></td>
+<td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/Kadane's%20Algo">Kadane’s Algorithm</a></td>
 <td>Maximum subarray</td>
 <td>Optimization pattern</td>
 </tr>
 
 <tr>
-<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Prefix%20Sum">Prefix Sum</a></td>
+<td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/Prefix%20Sum">Prefix Sum</a></td>
 <td>Cumulative sums</td>
-<td>Range & subarray queries</td>
+<td>Range queries</td>
 </tr>
 
 <tr>
-<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Merge%20Interval">Merge Interval</a></td>
+<td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/Merge%20Interval">Merge Interval</a></td>
 <td>Overlapping intervals</td>
-<td>2D range merging problems</td>
+<td>Interval merging</td>
 </tr>
 
 <tr>
-<td>📁 <a href="https://github.com/KunalP22-me/DSA/tree/main/Stack%20Pattern">Stack Pattern</a></td>
+<td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/Stack%20Pattern">Stack Pattern</a></td>
 <td>LIFO structure</td>
-<td>Next greater element, parentheses, monotonic stack</td>
+<td>Next greater element & parentheses</td>
 </tr>
 
 </table>
@@ -106,34 +111,35 @@ This repository is built to improve **problem-solving intuition**, not memorizat
 
 # 🧠 Core Interview Patterns
 
-| Pattern | Use Case |
-|------|------|
-| Two Pointer | Pair comparison & sorted arrays |
-| Sliding Window | Continuous subarrays / substrings |
-| Fast & Slow Pointer | Cycle detection in linked lists |
-| Kadane | Maximum sum subarray |
-| Prefix Sum | Range queries |
-| Merge Interval | Overlapping ranges |
-| Stack | LIFO problems |
-| Monotonic Stack | Next greater/smaller element |
+| Pattern             | Used For                          |
+| ------------------- | --------------------------------- |
+| Two Pointer         | Pair problems, sorted arrays      |
+| Sliding Window      | Subarray / substring optimization |
+| Fast & Slow Pointer | Linked list cycles                |
+| Kadane              | Maximum subarray                  |
+| Prefix Sum          | Range queries                     |
+| Merge Interval      | Overlapping intervals             |
+| Stack               | Parentheses, next greater         |
+| Monotonic Stack     | Next greater / smaller element    |
 
 ---
 
-# ⚡ Quick Algorithm Templates
-
----
+# ⚡ Algorithm Templates
 
 ## 👣 Two Pointer
 
 ```java
-int l = 0, r = n - 1;
+int l = 0;
+int r = n - 1;
 
 while (l < r) {
-    if(condition) {
+
+    if(condition){
         l++;
     } else {
         r--;
     }
+
 }
 ```
 
@@ -145,9 +151,11 @@ while (l < r) {
 int curr = arr[0];
 int ans = arr[0];
 
-for (int i = 1; i < arr.length; i++) {
+for(int i = 1; i < arr.length; i++){
+
     curr = Math.max(arr[i], curr + arr[i]);
     ans = Math.max(ans, curr);
+
 }
 ```
 
@@ -160,20 +168,20 @@ int[] prefix = new int[n];
 
 prefix[0] = arr[0];
 
-for (int i = 1; i < n; i++) {
-    prefix[i] = prefix[i - 1] + arr[i];
+for(int i = 1; i < n; i++){
+    prefix[i] = prefix[i-1] + arr[i];
 }
 ```
 
 Range Query
 
 ```java
-int sum = prefix[R] - (L > 0 ? prefix[L - 1] : 0);
+int sum = prefix[R] - (L > 0 ? prefix[L-1] : 0);
 ```
 
 ---
 
-## 📚 Stack Template
+## 📚 Stack Pattern
 
 ```java
 Stack<Integer> stack = new Stack<>();
@@ -185,81 +193,59 @@ for(int i = 0; i < n; i++){
     }
 
     stack.push(i);
+
 }
 ```
 
-Used for:
+Common Uses
 
-- Next Greater Element
-- Next Smaller Element
-- Monotonic Stack problems
-- Histogram problems
-
----
-
-## 📈 Monotonic Stack Pattern
-
-```java
-Stack<Integer> stack = new Stack<>();
-
-for(int i = 0; i < n; i++){
-
-    while(!stack.isEmpty() && arr[i] > arr[stack.peek()]){
-        stack.pop();
-    }
-
-    stack.push(i);
-}
-```
+• Next Greater Element
+• Next Smaller Element
+• Valid Parentheses
+• Daily Temperatures
+• Histogram Problems
 
 ---
 
 # ⭐ Must-Do Interview Problems
 
-✔ Longest Substring Without Repeating Characters  
-✔ Search in Rotated Sorted Array  
-✔ Merge Intervals  
-✔ Reverse Linked List  
-✔ Maximum Subarray  
-✔ Subarray Sum Equals K  
-✔ Next Greater Element  
-✔ Daily Temperatures  
-✔ Valid Parentheses  
+| Problem                                        | Pattern              |
+| ---------------------------------------------- | -------------------- |
+| Longest Substring Without Repeating Characters | Sliding Window       |
+| Search in Rotated Sorted Array                 | Binary Search        |
+| Merge Intervals                                | Interval Pattern     |
+| Reverse Linked List                            | Pointer Manipulation |
+| Maximum Subarray                               | Kadane               |
+| Subarray Sum Equals K                          | Prefix Sum           |
+| Next Greater Element                           | Stack                |
+| Daily Temperatures                             | Monotonic Stack      |
+| Valid Parentheses                              | Stack                |
 
 ---
 
 # 📊 Complexity Cheatsheet
 
-| Operation | Time Complexity |
-|------|------|
-| Array Access | O(1) |
-| Binary Search | O(log n) |
-| Sliding Window | O(n) |
-| Prefix Sum Query | O(1) |
-| Stack Push/Pop | O(1) |
-| Nested Loops | O(n²) |
+| Operation        | Complexity |
+| ---------------- | ---------- |
+| Array Access     | O(1)       |
+| Binary Search    | O(log n)   |
+| Sliding Window   | O(n)       |
+| Prefix Sum Query | O(1)       |
+| Stack Push / Pop | O(1)       |
+| Nested Loops     | O(n²)      |
 
 ---
 
 # 📈 Learning Progress
 
-Two Pointer  
-███████████████░ 90%
-
-Sliding Window  
-████████████░░░░ 75%
-
-Kadane  
-████████████████ 100%
-
-Prefix Sum  
-█████████████░░░ 80%
-
-Merge Interval  
-████████████░░░░ 70%
-
-Stack Pattern  
-██████████░░░░░░ 60%
+```
+Two Pointer        ███████████████░ 90%
+Sliding Window     ████████████░░░░ 75%
+Kadane             ████████████████ 100%
+Prefix Sum         █████████████░░░ 80%
+Merge Interval     ████████████░░░░ 70%
+Stack Pattern      ██████████░░░░░░ 60%
+```
 
 ---
 
@@ -269,7 +255,7 @@ Stack Pattern
 
 Backend Developer • Java • DSA Enthusiast
 
-Focused on mastering **problem-solving patterns for top tech interviews**.
+Focused on mastering **problem-solving patterns for top tech interviews.**
 
 ---
 
@@ -277,8 +263,8 @@ Focused on mastering **problem-solving patterns for top tech interviews**.
 
 If this repository helps you:
 
-⭐ Star the repository  
-👨‍💻 Follow the journey  
-📈 Stay consistent
+⭐ Star the repo
+📈 Follow the journey
+🚀 Stay consistent
 
 **Consistency > Motivation**
