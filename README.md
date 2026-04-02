@@ -127,7 +127,7 @@ Prefix Sum          → Range queries
 Merge Interval      → Overlapping intervals
 Stack               → Parentheses / next greater
 Monotonic Stack     → Next greater / smaller element
-Binary Search      → Search in sorted space
+Binary Search       → Search in sorted space
 ```
 
 ---
