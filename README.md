@@ -106,6 +106,12 @@ Instead of solving random problems, questions are organized by **core interview 
 <td>Next greater, parentheses</td>
 </tr>
 
+<tr>
+<td>🔗 <a href="https://github.com/KunalP22-me/DSA/tree/main/Binary%20Search">Binary Search</a></td>
+<td>Divide & conquer</td>
+<td>Search in sorted arrays</td>
+</tr>
+
 </table>
 
 ---
@@ -121,6 +127,7 @@ Prefix Sum          → Range queries
 Merge Interval      → Overlapping intervals
 Stack               → Parentheses / next greater
 Monotonic Stack     → Next greater / smaller element
+Binary Search      → Search in sorted space
 ```
 
 ---
@@ -196,7 +203,36 @@ for(int i = 0; i < n; i++){
     stack.push(i);
 
 }
+
 ```
+
+---
+
+### 🔍 Binary Search
+
+```java
+int l = 0;
+int h = n - 1;
+
+while(l <= h){
+
+    int m = l + (h - l) / 2;
+
+    if(arr[m] == target){
+        return m;
+    }
+    else if(arr[m] < target){
+        l = m + 1;
+    }
+    else{
+        h = m - 1;
+    }
+}
+return -1;
+
+```
+
+
 
 Common Uses
 
@@ -248,6 +284,7 @@ Kadane             ████████████████ 100%
 Prefix Sum         █████████████░░░ 80%
 Merge Interval     ████████████░░░░ 70%
 Stack Pattern      ██████████░░░░░░ 60%
+Binary Search      ████████░░░░░░░░ 50%
 ```
 
 ---
