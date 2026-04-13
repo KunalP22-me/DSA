@@ -2,7 +2,7 @@
 
 class Solution {
     static int smallestSumSubarray(int a[], int size) {
-        
+         
         int i= 0;
         int be= a[0];
         int ans= a[0];
