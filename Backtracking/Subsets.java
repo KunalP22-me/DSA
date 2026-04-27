@@ -6,7 +6,7 @@ class Solution {
 
         fun(nums, 0, res, ss);
         return res;
-    }
+    } 
 
     private void fun(int[] nums, int idx, List<List<Integer>> res, List<Integer> ss) {
         if (idx == nums.length) {
