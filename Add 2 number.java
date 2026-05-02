@@ -6,7 +6,7 @@ class Solution {
         ListNode l = head;
         int c=0; 
 
-        while(l1!=null || l2!=null || c!=0){
+        while(l1!=null || l2!=null || c!=0){ 
 
             int v1 = (l1!=null) ? l1.val :0;
             int v2 = (l2!=null) ? l2.val :0;
