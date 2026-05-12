@@ -6,7 +6,7 @@ class Solution {
         int cm = 1;
         int n = nums.length;
         while(cm<n){
-            if(nums[cm]==nums[cm-1]){
+            if(nums[cm]==nums[cm-1]){ 
                 cm++;
                 continue;
             }
