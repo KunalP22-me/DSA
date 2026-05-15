@@ -19,7 +19,6 @@
 <tr>
 <th>🔥 Topic</th>
 <th>📈 Progress</th>
-<th>🎯 Status</th>
 </tr>
 
 <tr>
@@ -29,7 +28,6 @@
 <img src="https://progress-bar.xyz/125/?title=Progress&width=250" />
 </td>
 
-<td>🔥 Mastered</td>
 </tr>
 
 <tr>
@@ -39,7 +37,6 @@
 <img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
 </td>
 
-<td>⚡ Learning</td>
 </tr>
 
 <tr>
@@ -49,7 +46,6 @@
 <img src="https://progress-bar.xyz/46/?title=Progress&width=250" />
 </td>
 
-<td>🚀 Starting</td>
 </tr>
 
 <tr>
@@ -59,7 +55,6 @@
 <img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
 </td>
 
-<td>⚡ Learning</td>
 </tr>
 
 <tr>
@@ -69,7 +64,6 @@
 <img src="https://progress-bar.xyz/38/?title=Progress&width=250" />
 </td>
 
-<td>🚀 Starting</td>
 </tr>
 
 <tr>
@@ -79,7 +73,6 @@
 <img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
 </td>
 
-<td>⚡ Learning</td>
 </tr>
 
 <tr>
@@ -89,7 +82,6 @@
 <img src="https://progress-bar.xyz/70/?title=Progress&width=250" />
 </td>
 
-<td>⚡ Learning</td>
 </tr>
 
 <tr>
@@ -99,7 +91,6 @@
 <img src="https://progress-bar.xyz/30/?title=Progress&width=250" />
 </td>
 
-<td>🚀 Starting</td>
 </tr>
 
 <tr>
@@ -109,7 +100,6 @@
 <img src="https://progress-bar.xyz/15/?title=Progress&width=250" />
 </td>
 
-<td>🚀 Starting</td>
 </tr>
 
 <tr>
@@ -119,13 +109,11 @@
 <img src="https://progress-bar.xyz/20/?title=Progress&width=250" />
 </td>
 
-<td>🚀 Starting</td>
 </tr>
 
 </table>
 
 <br>
 
-# 🧠 Total Problems Solved: 94
 
 </div>
