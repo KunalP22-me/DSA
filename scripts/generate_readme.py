@@ -1,34 +1,45 @@
+```python
 import os
 
 TOTAL = {
-    "2-pointer": 20,
-    "Sliding Window": 20,
-    "Binary Search": 20,
-    "Backtracking": 20,
-    "Merge Interval": 20,
-    "Stack Pattern": 20,
-    "Prefix Sum": 20,
-    "Kadane's Algo": 20,
-    "Slow & Fast Pointers": 20,
-    "Recursion": 20
+    "TwoPointer": 20,
+    "SlidingWindow": 20,
+    "BinarySearch": 20,
+    "Stack": 20,
+    "DP": 20
 }
 
-def progress_bar(percent):
-    filled = int(percent / 10)
-    empty = 10 - filled
-    return "🟩" * filled + "⬜" * empty
-
 content = """
-<h1 align="center">🚀 DSA Progress Tracker</h1>
+<div align="center">
 
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=2000&pause=1000&color=00F700&center=true&vCenter=true&width=500&lines=Solving+DSA+Daily;Consistency+Matters;LeetCode+Journey" />
-</p>
+# 🚀 DSA Progress Tracker
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&height=100&lines=Solving+DSA+Everyday;Consistency+%3D+Success;LeetCode+Journey" />
+
+<br>
+
+<img src="https://img.shields.io/badge/Problems_Solved-AUTO_UPDATE-blueviolet?style=for-the-badge&logo=github" />
+
+<br><br>
+
+<img src="https://github-readme-stats.vercel.app/api?username=KunalP22-me&show_icons=true&theme=tokyonight" />
+
+<br>
+
+<img src="https://streak-stats.demolab.com?user=KunalP22-me&theme=tokyonight" />
+
+</div>
 
 ---
 
-| Topic | Progress |
-|-------|----------|
+<div align="center">
+
+<table>
+<tr>
+<th>🔥 Topic</th>
+<th>📈 Progress</th>
+<th>🎯 Status</th>
+</tr>
 """
 
 totalSolved = 0
@@ -46,15 +57,44 @@ for topic, total in TOTAL.items():
 
         percent = int((solved / total) * 100)
 
-        bar = progress_bar(percent)
+        if percent >= 80:
+            status = "🔥 Mastered"
+        elif percent >= 50:
+            status = "⚡ Learning"
+        else:
+            status = "🚀 Starting"
 
-        topicName = topic.replace("Pointer", " Pointer")
+        content += f"""
+<tr>
+<td><b>{topic}</b></td>
 
-        content += f"| {topicName} | {bar} {percent}% |\n"
+<td>
 
-content += f"\n## Total Problems Solved: {totalSolved}\n"
+<img src="https://progress-bar.xyz/{percent}/?title=Progress&width=250" />
+
+</td>
+
+<td>{status}</td>
+
+</tr>
+"""
+
+content += f"""
+</table>
+
+<br>
+
+# 🧠 Total Problems Solved: {totalSolved}
+
+<br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=KunalP22-me&theme=algolia&no-frame=true&row=1&column=6" />
+
+</div>
+"""
 
 with open("README.md", "w", encoding="utf-8") as file:
     file.write(content)
 
-print("README updated!")
+print("README updated successfully!")
+```
