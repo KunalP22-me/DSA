@@ -50,7 +50,7 @@ totalSolved = 0
 
 for topic, total in TOTAL.items():
 
-```
+
 if os.path.exists(topic):
 
     solved = len([
@@ -70,7 +70,6 @@ if os.path.exists(topic):
         status = "🚀 Starting"
 
     content += f"""
-```
 
 <tr>
 <td><b>{topic}</b></td>
