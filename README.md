@@ -9,5 +9,15 @@
 
 | Topic | Progress |
 |-------|----------|
+| 2-pointer | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 125% |
+| Sliding Window | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ 60% |
+| Binary Search | 🟩🟩🟩🟩🟩🟩🟩⬜⬜⬜ 70% |
+| Backtracking | 🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜ 15% |
+| Merge Interval | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 25% |
+| Stack Pattern | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 30% |
+| Prefix Sum | 🟩🟩🟩🟩🟩🟩⬜⬜⬜⬜ 60% |
+| Kadane's Algo | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 30% |
+| Slow & Fast  Pointers | 🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜ 35% |
+| Recursion | 🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜ 20% |
 
-## Total Problems Solved: 0
+## Total Problems Solved: 94
