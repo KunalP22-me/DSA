@@ -34,7 +34,6 @@ content = """
 <tr>
 <th>🔥 Topic</th>
 <th>📈 Progress</th>
-<th>🎯 Status</th>
 </tr>
 """
 
@@ -53,15 +52,7 @@ for topic, total in TOTAL.items():
 
         percent = int((solved / total) * 100)
 
-        if percent >= 80:
-            status = "🔥 Mastered"
-
-        elif percent >= 50:
-            status = "⚡ Learning"
-
-        else:
-            status = "🚀 Starting"
-
+    
         content += f"""
 <tr>
 <td><b>{topic}</b></td>
@@ -70,7 +61,6 @@ for topic, total in TOTAL.items():
 <img src="https://progress-bar.xyz/{percent}/?title=Progress&width=250" />
 </td>
 
-<td>{status}</td>
 </tr>
 """
 
@@ -79,7 +69,6 @@ content += f"""
 
 <br>
 
-# 🧠 Total Problems Solved: {totalSolved}
 
 </div>
 """
