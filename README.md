@@ -33,40 +33,40 @@
 </tr>
 
 <tr>
-<td><b>Backtracking</b></td>
+<td><b>Sliding Window</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/15/?title=Progress&width=250" />
-</td>
-
-<td>🚀 Starting</td>
-</tr>
-
-<tr>
-<td><b>Binary Search</b></td>
-
-<td>
-<img src="https://progress-bar.xyz/70/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
 </td>
 
 <td>⚡ Learning</td>
 </tr>
 
 <tr>
-<td><b>Kadane's Algo</b></td>
+<td><b>Slow & Fast Pointers</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/30/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/46/?title=Progress&width=250" />
 </td>
 
 <td>🚀 Starting</td>
 </tr>
 
 <tr>
+<td><b>Kadane's Algo</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
+</td>
+
+<td>⚡ Learning</td>
+</tr>
+
+<tr>
 <td><b>Merge Interval</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/25/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/38/?title=Progress&width=250" />
 </td>
 
 <td>🚀 Starting</td>
@@ -83,33 +83,13 @@
 </tr>
 
 <tr>
-<td><b>Recursion</b></td>
+<td><b>Binary Search</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/20/?title=Progress&width=250" />
-</td>
-
-<td>🚀 Starting</td>
-</tr>
-
-<tr>
-<td><b>Sliding Window</b></td>
-
-<td>
-<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/70/?title=Progress&width=250" />
 </td>
 
 <td>⚡ Learning</td>
-</tr>
-
-<tr>
-<td><b>Slow & Fast Pointers</b></td>
-
-<td>
-<img src="https://progress-bar.xyz/35/?title=Progress&width=250" />
-</td>
-
-<td>🚀 Starting</td>
 </tr>
 
 <tr>
@@ -117,6 +97,26 @@
 
 <td>
 <img src="https://progress-bar.xyz/30/?title=Progress&width=250" />
+</td>
+
+<td>🚀 Starting</td>
+</tr>
+
+<tr>
+<td><b>Backtracking</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/15/?title=Progress&width=250" />
+</td>
+
+<td>🚀 Starting</td>
+</tr>
+
+<tr>
+<td><b>Recursion</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/20/?title=Progress&width=250" />
 </td>
 
 <td>🚀 Starting</td>
