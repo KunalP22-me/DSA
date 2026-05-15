@@ -56,7 +56,7 @@ This repo contains:
 <td><b>Slow & Fast Pointers</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/46/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/40/?title=Progress&width=250" />
 </td>
 
 </tr>
@@ -128,7 +128,7 @@ This repo contains:
 
 <br>
 
-# 🧠 Total Problems Solved: 94
+# 🧠 Total Problems Solved: 93
 
 </div>
 
