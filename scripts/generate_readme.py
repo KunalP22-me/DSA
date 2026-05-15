@@ -1,11 +1,16 @@
 import os
 
 TOTAL = {
-    "TwoPointer": 20,
-    "SlidingWindow": 20,
-    "BinarySearch": 20,
-    "Stack": 20,
-    "DP": 20
+    "2-pointer": 20,
+    "Sliding Window": 20,
+    "Binary Search": 20,
+    "Backtracking": 20,
+    "Merge Interval": 20,
+    "Stack Pattern": 20,
+    "Prefix Sum": 20,
+    "Kadane's Algo": 20,
+    "Slow & Fast Pointers": 20,
+    "Recursion": 20
 }
 
 def progress_bar(percent):
