@@ -2,15 +2,15 @@ import os
 
 TOTAL = {
     "2-pointer": 20,
-    "Backtracking": 20,
-    "Binary Search": 20,
-    "Kadane's Algo": 20,
-    "Merge Interval": 20,
-    "Prefix Sum": 20,
-    "Recursion": 20,
     "Sliding Window": 20,
-    "Slow & Fast Pointers": 20,
-    "Stack Pattern": 20
+    "Slow & Fast Pointers": 15,
+    "Kadane's Algo": 10,
+    "Merge Interval": 13,
+    "Prefix Sum": 20,
+    "Binary Search": 20,
+    "Stack Pattern": 20,
+    "Backtracking": 20,
+    "Recursion": 20
 }
 
 content = """
