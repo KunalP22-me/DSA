@@ -17,8 +17,6 @@ TOTAL = {
 tracker = """
 <div align="center">
 
-# 🚀 DSA Progress Tracker
-
 <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&height=100&lines=Solving+DSA+Everyday;Consistency+%3D+Success;LeetCode+Journey" />
 
 <br>
@@ -66,10 +64,6 @@ for topic, total in TOTAL.items():
 
 tracker += f"""
 </table>
-
-<br>
-
-# 🧠 Total Problems Solved: {totalSolved}
 
 </div>
 """
