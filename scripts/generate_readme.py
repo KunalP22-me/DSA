@@ -1,4 +1,5 @@
 import os
+import re
 
 TOTAL = {
     "2-pointer": 20,
@@ -13,7 +14,7 @@ TOTAL = {
     "Recursion": 20
 }
 
-content = """
+tracker = """
 <div align="center">
 
 # 🚀 DSA Progress Tracker
@@ -52,8 +53,7 @@ for topic, total in TOTAL.items():
 
         percent = int((solved / total) * 100)
 
-    
-        content += f"""
+        tracker += f"""
 <tr>
 <td><b>{topic}</b></td>
 
@@ -64,16 +64,27 @@ for topic, total in TOTAL.items():
 </tr>
 """
 
-content += f"""
+tracker += f"""
 </table>
 
 <br>
 
+# 🧠 Total Problems Solved: {totalSolved}
 
 </div>
 """
 
+with open("README.md", "r", encoding="utf-8") as file:
+    readme = file.read()
+
+new_readme = re.sub(
+    r'<!-- TRACKER_START -->(.*?)<!-- TRACKER_END -->',
+    f'<!-- TRACKER_START -->\n{tracker}\n<!-- TRACKER_END -->',
+    readme,
+    flags=re.DOTALL
+)
+
 with open("README.md", "w", encoding="utf-8") as file:
-    file.write(content)
+    file.write(new_readme)
 
 print("README updated successfully!")
