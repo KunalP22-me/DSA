@@ -1,15 +1,19 @@
-```python
 import os
 
 TOTAL = {
-    "TwoPointer": 20,
-    "SlidingWindow": 20,
-    "BinarySearch": 20,
-    "Stack": 20,
-    "DP": 20
+"2-Pointer": 20,
+"Merge Interval": 20,
+"Prefix Sum": 20,
+"Recursion": 20,
+"Sliding Window": 20,
+"Binary Search": 20,
+"Slow & Fast Pointers": 20,
+"Stack Pattern": 20,
+"Backtracking": 20
 }
 
 content = """
+
 <div align="center">
 
 # 🚀 DSA Progress Tracker
@@ -46,25 +50,28 @@ totalSolved = 0
 
 for topic, total in TOTAL.items():
 
-    if os.path.exists(topic):
+```
+if os.path.exists(topic):
 
-        solved = len([
-            f for f in os.listdir(topic)
-            if f.endswith(".java")
-        ])
+    solved = len([
+        f for f in os.listdir(topic)
+        if f.endswith(".java")
+    ])
 
-        totalSolved += solved
+    totalSolved += solved
 
-        percent = int((solved / total) * 100)
+    percent = int((solved / total) * 100)
 
-        if percent >= 80:
-            status = "🔥 Mastered"
-        elif percent >= 50:
-            status = "⚡ Learning"
-        else:
-            status = "🚀 Starting"
+    if percent >= 80:
+        status = "🔥 Mastered"
+    elif percent >= 50:
+        status = "⚡ Learning"
+    else:
+        status = "🚀 Starting"
 
-        content += f"""
+    content += f"""
+```
+
 <tr>
 <td><b>{topic}</b></td>
 
@@ -80,6 +87,7 @@ for topic, total in TOTAL.items():
 """
 
 content += f"""
+
 </table>
 
 <br>
@@ -94,7 +102,6 @@ content += f"""
 """
 
 with open("README.md", "w", encoding="utf-8") as file:
-    file.write(content)
+file.write(content)
 
 print("README updated successfully!")
-```
