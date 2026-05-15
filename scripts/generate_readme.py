@@ -1,15 +1,16 @@
 import os
 
 TOTAL = {
-"2-Pointer": 20,
+"2-pointer": 20,
+"Backtracking": 20,
+"Binary Search": 20,
+"Kadane's Algo": 20,
 "Merge Interval": 20,
 "Prefix Sum": 20,
 "Recursion": 20,
 "Sliding Window": 20,
-"Binary Search": 20,
 "Slow & Fast Pointers": 20,
-"Stack Pattern": 20,
-"Backtracking": 20
+"Stack Pattern": 20
 }
 
 content = """
@@ -50,7 +51,6 @@ totalSolved = 0
 
 for topic, total in TOTAL.items():
 
-
 if os.path.exists(topic):
 
     solved = len([
@@ -64,14 +64,17 @@ if os.path.exists(topic):
 
     if percent >= 80:
         status = "🔥 Mastered"
+
     elif percent >= 50:
         status = "⚡ Learning"
+
     else:
         status = "🚀 Starting"
 
     content += f"""
 
 <tr>
+
 <td><b>{topic}</b></td>
 
 <td>
