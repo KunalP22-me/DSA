@@ -1,12 +1,43 @@
-# DSA Repository
+# 🚀 DSA Pattern Practice Repository
 
-This repo contains:
-- DSA notes
-- theory
-- patterns
-- interview questions
+This repository contains my daily solved DSA problems organized by patterns.  
+The goal is to improve problem-solving skills, recognize patterns quickly, and prepare for coding interviews.
 
 ---
+
+# 📚 Patterns Covered
+
+| Pattern | Concept | Time Complexity |
+|---|---|---|
+| 2-Pointer | Use two indices to traverse efficiently | O(n) |
+| Sliding Window | Efficient subarray/substring processing | O(n) |
+| Slow & Fast Pointers | Cycle detection & middle finding | O(n) |
+| Kadane’s Algo | Maximum subarray problems | O(n) |
+| Merge Interval | Handle overlapping intervals | O(n log n) |
+| Prefix Sum | Fast range sum queries | O(n) |
+| Recursion | Solve using smaller subproblems | Depends |
+| Backtracking | Try → Explore → Undo | Exponential |
+| Binary Search | Search in sorted space | O(log n) |
+| Stack Pattern | LIFO-based problems | O(1) push/pop |
+
+---
+
+# 🛠 Repository Structure
+
+```text
+DSA-Patterns/
+│
+├── 2-pointer/
+├── Sliding Window/
+├── Slow & Fast Pointers/
+├── Kadane's Algo/
+├── Merge Interval/
+├── Prefix Sum/
+├── Recursion/
+├── Backtracking/
+├── Binary Search/
+└── Stack Pattern/
+```
 
 ## 📊 Progress Tracker
 
@@ -129,11 +160,34 @@ This repo contains:
 <!-- TRACKER_END -->
 
 ---
+---
 
-# Binary Search Theory
+# 📈 My Contribution
 
-Your notes here...
+✅ Solve DSA problems daily  
+✅ Organize problems pattern-wise  
+✅ Write optimized solutions  
+✅ Practice multiple approaches  
 
-# Sliding Window Theory
+---
 
-Your notes here...
+# 🎯 Goals
+
+- Master DSA patterns
+- Improve coding interview skills
+- Build consistency
+- Crack top tech interviews
+
+---
+
+# 💻 Languages Used
+
+- Java ☕
+- C++ 🚀
+- Python 🐍
+
+---
+
+# ⭐ Keep Learning
+
+> “Consistency beats intensity.”
