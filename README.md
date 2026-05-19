@@ -64,91 +64,271 @@ DSA-Patterns/
 </tr>
 
 <tr>
+
 <td><b>2-pointer</b></td>
 
-<td>
-<img src="https://progress-bar.xyz/130/?title=Progress&width=250" />
+<td align="center">
+
+<img src="https://quickchart.io/chart?c={
+type:'radialGauge',
+data:{
+datasets:[{
+data:[130]
+}]
+},
+options:{
+domain:[0,100],
+trackColor:'#2d3748',
+centerPercentage:80,
+centerArea:{
+text:'130%'
+}
+}
+}&width=180&height=180" />
+
 </td>
 
 </tr>
 
 <tr>
+
 <td><b>Sliding Window</b></td>
 
-<td>
-<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
+<td align="center">
+
+<img src="https://quickchart.io/chart?c={
+type:'radialGauge',
+data:{
+datasets:[{
+data:[60]
+}]
+},
+options:{
+domain:[0,100],
+trackColor:'#2d3748',
+centerPercentage:80,
+centerArea:{
+text:'60%'
+}
+}
+}&width=180&height=180" />
+
 </td>
 
 </tr>
 
 <tr>
+
 <td><b>Slow & Fast Pointers</b></td>
 
-<td>
-<img src="https://progress-bar.xyz/40/?title=Progress&width=250" />
+<td align="center">
+
+<img src="https://quickchart.io/chart?c={
+type:'radialGauge',
+data:{
+datasets:[{
+data:[40]
+}]
+},
+options:{
+domain:[0,100],
+trackColor:'#2d3748',
+centerPercentage:80,
+centerArea:{
+text:'40%'
+}
+}
+}&width=180&height=180" />
+
 </td>
 
 </tr>
 
 <tr>
+
 <td><b>Kadane's Algo</b></td>
 
-<td>
-<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
+<td align="center">
+
+<img src="https://quickchart.io/chart?c={
+type:'radialGauge',
+data:{
+datasets:[{
+data:[60]
+}]
+},
+options:{
+domain:[0,100],
+trackColor:'#2d3748',
+centerPercentage:80,
+centerArea:{
+text:'60%'
+}
+}
+}&width=180&height=180" />
+
 </td>
 
 </tr>
 
 <tr>
+
 <td><b>Merge Interval</b></td>
 
-<td>
-<img src="https://progress-bar.xyz/38/?title=Progress&width=250" />
+<td align="center">
+
+<img src="https://quickchart.io/chart?c={
+type:'radialGauge',
+data:{
+datasets:[{
+data:[38]
+}]
+},
+options:{
+domain:[0,100],
+trackColor:'#2d3748',
+centerPercentage:80,
+centerArea:{
+text:'38%'
+}
+}
+}&width=180&height=180" />
+
 </td>
 
 </tr>
 
 <tr>
+
 <td><b>Prefix Sum</b></td>
 
-<td>
-<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
+<td align="center">
+
+<img src="https://quickchart.io/chart?c={
+type:'radialGauge',
+data:{
+datasets:[{
+data:[60]
+}]
+},
+options:{
+domain:[0,100],
+trackColor:'#2d3748',
+centerPercentage:80,
+centerArea:{
+text:'60%'
+}
+}
+}&width=180&height=180" />
+
 </td>
 
 </tr>
 
 <tr>
+
 <td><b>Binary Search</b></td>
 
-<td>
-<img src="https://progress-bar.xyz/70/?title=Progress&width=250" />
+<td align="center">
+
+<img src="https://quickchart.io/chart?c={
+type:'radialGauge',
+data:{
+datasets:[{
+data:[70]
+}]
+},
+options:{
+domain:[0,100],
+trackColor:'#2d3748',
+centerPercentage:80,
+centerArea:{
+text:'70%'
+}
+}
+}&width=180&height=180" />
+
 </td>
 
 </tr>
 
 <tr>
+
 <td><b>Stack Pattern</b></td>
 
-<td>
-<img src="https://progress-bar.xyz/30/?title=Progress&width=250" />
+<td align="center">
+
+<img src="https://quickchart.io/chart?c={
+type:'radialGauge',
+data:{
+datasets:[{
+data:[30]
+}]
+},
+options:{
+domain:[0,100],
+trackColor:'#2d3748',
+centerPercentage:80,
+centerArea:{
+text:'30%'
+}
+}
+}&width=180&height=180" />
+
 </td>
 
 </tr>
 
 <tr>
+
 <td><b>Backtracking</b></td>
 
-<td>
-<img src="https://progress-bar.xyz/20/?title=Progress&width=250" />
+<td align="center">
+
+<img src="https://quickchart.io/chart?c={
+type:'radialGauge',
+data:{
+datasets:[{
+data:[20]
+}]
+},
+options:{
+domain:[0,100],
+trackColor:'#2d3748',
+centerPercentage:80,
+centerArea:{
+text:'20%'
+}
+}
+}&width=180&height=180" />
+
 </td>
 
 </tr>
 
 <tr>
+
 <td><b>Recursion</b></td>
 
-<td>
-<img src="https://progress-bar.xyz/20/?title=Progress&width=250" />
+<td align="center">
+
+<img src="https://quickchart.io/chart?c={
+type:'radialGauge',
+data:{
+datasets:[{
+data:[20]
+}]
+},
+options:{
+domain:[0,100],
+trackColor:'#2d3748',
+centerPercentage:80,
+centerArea:{
+text:'20%'
+}
+}
+}&width=180&height=180" />
+
 </td>
 
 </tr>
