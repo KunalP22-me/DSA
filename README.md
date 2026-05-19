@@ -157,9 +157,6 @@ DSA-Patterns/
 
 </table>
 
-<br>
-
-# 🧠 Total Problems Solved: 95
 
 </div>
 
