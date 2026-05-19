@@ -51,30 +51,12 @@ for topic, total in TOTAL.items():
 
         percent = int((solved / total) * 100)
 
-        tracker += f"""
+tracker += f"""
 <tr>
-
 <td><b>{topic}</b></td>
 
-<td align="center">
-
-<img src="https://quickchart.io/chart?c={{
-type:'radialGauge',
-data:{{
-datasets:[{{
-data:[{percent}]
-}}]
-}},
-options:{{
-domain:[0,100],
-trackColor:'#2d3748',
-centerPercentage:80,
-centerArea:{{
-text:'{percent}%'
-}}
-}}
-}}&width=180&height=180" />
-
+<td>
+<img src="https://progress-bar.xyz/{percent}/?title=Progress&width=250" />
 </td>
 
 </tr>
