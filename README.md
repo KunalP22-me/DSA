@@ -45,6 +45,8 @@ DSA-Patterns/
 
 <div align="center">
 
+# 🚀 DSA Progress Tracker
+
 <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&height=100&lines=Solving+DSA+Everyday;Consistency+%3D+Success;LeetCode+Journey" />
 
 <br>
@@ -64,6 +66,87 @@ DSA-Patterns/
 </tr>
 
 <tr>
+<td><b>2-pointer</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/130/?title=Progress&width=250" />
+</td>
+
+</tr>
+
+<tr>
+<td><b>Sliding Window</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
+</td>
+
+</tr>
+
+<tr>
+<td><b>Slow & Fast Pointers</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/40/?title=Progress&width=250" />
+</td>
+
+</tr>
+
+<tr>
+<td><b>Kadane's Algo</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
+</td>
+
+</tr>
+
+<tr>
+<td><b>Merge Interval</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/38/?title=Progress&width=250" />
+</td>
+
+</tr>
+
+<tr>
+<td><b>Prefix Sum</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
+</td>
+
+</tr>
+
+<tr>
+<td><b>Binary Search</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/70/?title=Progress&width=250" />
+</td>
+
+</tr>
+
+<tr>
+<td><b>Stack Pattern</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/30/?title=Progress&width=250" />
+</td>
+
+</tr>
+
+<tr>
+<td><b>Backtracking</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/20/?title=Progress&width=250" />
+</td>
+
+</tr>
+
+<tr>
 <td><b>Recursion</b></td>
 
 <td>
@@ -73,6 +156,10 @@ DSA-Patterns/
 </tr>
 
 </table>
+
+<br>
+
+# 🧠 Total Problems Solved: 95
 
 </div>
 
