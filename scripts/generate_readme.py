@@ -67,9 +67,6 @@ for topic, total in TOTAL.items():
 tracker += f"""
 </table>
 
-<br>
-
-# 🧠 Total Problems Solved: {totalSolved}
 
 </div>
 """
