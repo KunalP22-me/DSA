@@ -11,7 +11,8 @@ TOTAL = {
     "Binary Search": 20,
     "Stack Pattern": 20,
     "Backtracking": 20,
-    "Recursion": 20
+    "Recursion": 20,
+    "Math (Common sense logic)": 10
 }
 
 tracker = """
