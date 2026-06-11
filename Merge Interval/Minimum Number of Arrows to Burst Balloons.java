@@ -15,7 +15,7 @@ class Solution {
                 a++;
                 prevend=arr[i][1];
             }
-        }
+        } 
         return a;
     }
 }
