@@ -2,7 +2,7 @@
 
 class Solution { 
     public int numSubarrayProductLessThanK(int[] nums, int k) {
-        
+         
         if(k<=1) return 0;
         
         int c =0;
