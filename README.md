@@ -69,7 +69,7 @@ DSA-Patterns/
 <td><b>2-pointer</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/135/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/140/?title=Progress&width=250" />
 </td>
 
 </tr>
