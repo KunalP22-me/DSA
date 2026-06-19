@@ -195,8 +195,6 @@ DSA-Patterns/
 # 💻 Languages Used
 
 - Java ☕
-- C++ 🚀
-- Python 🐍
 
 ---
 
