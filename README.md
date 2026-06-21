@@ -164,6 +164,15 @@ DSA-Patterns/
 
 </tr>
 
+<tr>
+<td><b>Greedy Approch</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/14/?title=Progress&width=250" />
+</td>
+
+</tr>
+
 </table>
 
 
