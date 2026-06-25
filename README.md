@@ -6,7 +6,7 @@ The goal is to improve problem-solving skills, recognize patterns quickly, and p
 ---
 
 # 📚 Patterns Covered
-
+ 
 | Pattern | Concept | Time Complexity |
 |---|---|---|
 | 2-Pointer | Use two indices to traverse efficiently | O(n) |
