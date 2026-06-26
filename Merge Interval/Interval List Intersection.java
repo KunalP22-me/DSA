@@ -19,6 +19,7 @@ class Solution {
                     int y=Math.min(l1_end,l2_end);
                     res.add(new int[]{x,y});
                 }
+            
             if(l1_end<=l2_end) i++;
             else j++;
         }
