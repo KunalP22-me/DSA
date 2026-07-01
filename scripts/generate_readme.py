@@ -12,7 +12,7 @@ TOTAL = {
     "Stack Pattern": 20,
     "Backtracking": 20,
     "Recursion": 20,
-    "Math (Common sense logic)": 10,
+    "Math (Common sense logic)": 15,
     "Greedy Approch": 7
 }
 
