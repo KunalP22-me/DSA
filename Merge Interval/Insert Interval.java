@@ -12,7 +12,7 @@ class Solution {
             int start = intervals[j][0];
 
             if(Insert==false && start>=ni){
-                res.add(newInterval);
+                res.add(newInterval); 
                 Insert = true;
             }
             res.add(intervals[j]);
