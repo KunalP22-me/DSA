@@ -159,7 +159,7 @@ DSA-Patterns/
 <td><b>Math (Common sense logic)</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/120/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/90/?title=Progress&width=250" />
 </td>
 
 </tr>
@@ -168,7 +168,7 @@ DSA-Patterns/
 <td><b>Greedy Approch</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/100/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/70/?title=Progress&width=250" />
 </td>
 
 </tr>
