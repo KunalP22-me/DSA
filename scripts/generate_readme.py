@@ -12,8 +12,8 @@ TOTAL = {
     "Stack Pattern": 20,
     "Backtracking": 20,
     "Recursion": 20,
-    "Math (Common sense logic)": 15,
-    "Greedy Approch": 7
+    "Math (Common sense logic)": 20,
+    "Greedy Approch": 10
 }
 
 tracker = """
