@@ -9,7 +9,7 @@ class Solution {
             int i = getnextindex(s,p1);
             int j = getnextindex(t,p2);
 
-            if(i<0 && j<0) return true;
+            if(i<0 && j<0) return true; 
             if(i<0 || j<0) return false;
 
             if(s.charAt(i) != t.charAt(j)) return false;
