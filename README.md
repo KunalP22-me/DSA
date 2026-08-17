@@ -138,19 +138,10 @@ DSA-Patterns/
 </tr>
 
 <tr>
-<td><b>Backtracking</b></td>
+<td><b>Recursion & Backtracking</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/15/?title=Progress&width=250" />
-</td>
-
-</tr>
-
-<tr>
-<td><b>Recursion</b></td>
-
-<td>
-<img src="https://progress-bar.xyz/20/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/10/?title=Progress&width=250" />
 </td>
 
 </tr>
