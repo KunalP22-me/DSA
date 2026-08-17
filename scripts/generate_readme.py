@@ -10,8 +10,7 @@ TOTAL = {
     "Prefix Sum": 20,
     "Binary Search": 20,
     "Stack Pattern": 20,
-    "Backtracking": 20,
-    "Recursion": 20,
+    "Recursion & Backtracking": 10,
     "Math (Common sense logic)": 20,
     "Greedy Approch": 10
 }
