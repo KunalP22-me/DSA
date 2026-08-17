@@ -141,7 +141,7 @@ DSA-Patterns/
 <td><b>Backtracking</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/20/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/15/?title=Progress&width=250" />
 </td>
 
 </tr>
