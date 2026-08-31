@@ -87,7 +87,7 @@ DSA-Patterns/
 <td><b>Slow & Fast Pointers</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/46/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/53/?title=Progress&width=250" />
 </td>
 
 </tr>
