@@ -11,7 +11,7 @@ TOTAL = {
     "Binary Search": 20,
     "Stack Pattern": 20,
     "Recursion & Backtracking": 10,
-    "Math (Common sense logic)": 20,
+    "Math (Common sense logic)": 28,
     "Greedy Approch": 10
 }
 
