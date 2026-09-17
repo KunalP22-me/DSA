@@ -33,8 +33,7 @@ DSA-Patterns/
 ├── Kadane's Algo/
 ├── Merge Interval/
 ├── Prefix Sum/
-├── Recursion/
-├── Backtracking/
+├── Recursion & Backtracking/
 ├── Binary Search/
 └── Stack Pattern/
 ```
