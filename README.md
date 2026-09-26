@@ -77,7 +77,7 @@ DSA-Patterns/
 <td><b>Sliding Window</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/75/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/80/?title=Progress&width=250" />
 </td>
 
 </tr>
