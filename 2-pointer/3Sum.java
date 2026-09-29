@@ -1,5 +1,4 @@
 // Problem 15 Leetcode 3Sum
-
 import java.util.Arrays;
  
 class Solution {
@@ -11,7 +10,7 @@ class Solution {
 
         for(int i=0; i<n-2; i++){ 
             if (i > 0 && nums[i] == nums[i - 1]) continue;
-            int l=i+1;
+            int l=i+1; 
             int r=n-1;
             int sum = -1 * nums[i];
 
