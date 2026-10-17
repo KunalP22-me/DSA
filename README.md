@@ -3,6 +3,7 @@
 This repository contains my daily solved DSA problems organized by patterns.  
 The goal is to improve problem-solving skills, recognize patterns quickly, and prepare for coding interviews.
 
+
 ---
 
 # 📚 Patterns Covered
