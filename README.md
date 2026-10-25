@@ -184,20 +184,15 @@ DSA-Patterns/
 ---
 
 # 🎯 Goals
-
 - Master DSA patterns
 - Improve coding interview skills
 - Build consistency
 - Crack top tech interviews
-
 ---
 
 # 💻 Languages Used
-
 - Java ☕
-
 ---
 
 # ⭐ Keep Learning 
-
 > “Consistency beats intensity.”
