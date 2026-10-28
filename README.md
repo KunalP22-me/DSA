@@ -3,7 +3,6 @@
 This repository contains my daily solved DSA problems organized by patterns.  
 The goal is to improve problem-solving skills, recognize patterns quickly, and prepare for coding interviews.
 
-
 ---
 
 # 📚 Patterns Covered
@@ -17,8 +16,8 @@ The goal is to improve problem-solving skills, recognize patterns quickly, and p
 | Merge Interval | Handle overlapping intervals | O(n log n) |
 | Prefix Sum | Fast range sum queries | O(n) |
 | Recursion | Solve using smaller subproblems | Depends |
-| Backtracking | Try → Explore → Undo | Exponential |
 | Binary Search | Search in sorted space | O(log n) |
+| Backtracking | Try → Explore → Undo | Exponential |
 | Stack Pattern | LIFO-based problems | O(1) push/pop |
 
 ---
