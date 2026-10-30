@@ -101,6 +101,15 @@ DSA-Patterns/
 </tr>
 
 <tr>
+<td><b>Math (Common sense logic)</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/125/?title=Progress&width=250" />
+</td>
+
+</tr>
+
+<tr>
 <td><b>Merge Interval</b></td>
 
 <td>
@@ -146,10 +155,10 @@ DSA-Patterns/
 </tr>
 
 <tr>
-<td><b>Math (Common sense logic)</b></td>
+<td><b>Trees & Related Algorithms</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/125/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/10/?title=Progress&width=250" />
 </td>
 
 </tr>
