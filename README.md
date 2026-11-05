@@ -158,7 +158,7 @@ DSA-Patterns/
 <td><b>Trees & Related Algorithms</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/50/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
 </td>
 
 </tr>
