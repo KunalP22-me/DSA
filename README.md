@@ -42,9 +42,6 @@ DSA-Patterns/
 
 <!-- TRACKER_START -->
 
-
-<!-- TRACKER_START -->
-
 <div align="center">
 
 # 🚀 DSA Progress Tracker
@@ -69,65 +66,114 @@ DSA-Patterns/
 
 <tr>
 <td><b>2-pointer</b></td>
-<td><img src="https://img.shields.io/badge/Progress-160-blueviolet?style=flat-square" alt="160" /></td>
+
+<td>
+<img src="https://progress-bar.xyz/160/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 <tr>
 <td><b>Sliding Window</b></td>
-<td><img src="https://img.shields.io/badge/Progress-80-blue?style=flat-square" alt="80" /></td>
+
+<td>
+<img src="https://progress-bar.xyz/80/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 <tr>
 <td><b>Slow & Fast Pointers</b></td>
-<td><img src="https://img.shields.io/badge/Progress-60-blue?style=flat-square" alt="60" /></td>
+
+<td>
+<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 <tr>
 <td><b>Kadane's Algo</b></td>
-<td><img src="https://img.shields.io/badge/Progress-60-blue?style=flat-square" alt="60" /></td>
+
+<td>
+<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 <tr>
-<td><b>Math (Common Sense Logic)</b></td>
-<td><img src="https://img.shields.io/badge/Progress-134-purple?style=flat-square" alt="134" /></td>
+<td><b>Math (Common sense logic)</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/134/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 <tr>
 <td><b>Merge Interval</b></td>
-<td><img src="https://img.shields.io/badge/Progress-53-blue?style=flat-square" alt="53" /></td>
+
+<td>
+<img src="https://progress-bar.xyz/53/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 <tr>
 <td><b>Prefix Sum</b></td>
-<td><img src="https://img.shields.io/badge/Progress-75-blue?style=flat-square" alt="75" /></td>
+
+<td>
+<img src="https://progress-bar.xyz/75/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 <tr>
 <td><b>Binary Search</b></td>
-<td><img src="https://img.shields.io/badge/Progress-85-blue?style=flat-square" alt="85" /></td>
+
+<td>
+<img src="https://progress-bar.xyz/85/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 <tr>
 <td><b>Stack Pattern</b></td>
-<td><img src="https://img.shields.io/badge/Progress-45-blue?style=flat-square" alt="45" /></td>
+
+<td>
+<img src="https://progress-bar.xyz/45/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 <tr>
 <td><b>Recursion & Backtracking</b></td>
-<td><img src="https://img.shields.io/badge/Progress-160-blueviolet?style=flat-square" alt="160" /></td>
+
+<td>
+<img src="https://progress-bar.xyz/160/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 <tr>
 <td><b>Trees & Related Algorithms</b></td>
-<td><img src="https://img.shields.io/badge/Progress-60-blue?style=flat-square" alt="60" /></td>
+
+<td>
+<img src="https://progress-bar.xyz/60/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 <tr>
-<td><b>Greedy Approach</b></td>
-<td><img src="https://img.shields.io/badge/Progress-220-purple?style=flat-square" alt="220" /></td>
+<td><b>Greedy Approch</b></td>
+
+<td>
+<img src="https://progress-bar.xyz/220/?title=Progress&width=250" />
+</td>
+
 </tr>
 
 </table>
+
 
 </div>
 
