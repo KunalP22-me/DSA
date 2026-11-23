@@ -269,7 +269,7 @@ flowchart LR
 
 <div align="center">
 
-<img src="https://leetcard.jacoblin.cool/Kunalp22?theme=dark&font=Orbitron&ext=heatmap" width="95%" />
+<img src="https://leetcard.jacoblin.cool/Kunalp22?theme=dark&font=Orbitron&ext=heatmap" width="650" />
 
 <br><br>
 
