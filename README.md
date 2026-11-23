@@ -88,7 +88,7 @@ DSA/
 
 </div>
 
-Alongside the pattern folders, my day-wise solutions are saved in the repo root as `DAY_1` … `DAY_80`.
+Alongside the pattern folders, my day-wise solutions are saved in the repo root as `DAY_1` … `DAY_200+`.
 👉 [Browse the daily files](https://github.com/KunalP22-me/DSA)
 
 <br>
