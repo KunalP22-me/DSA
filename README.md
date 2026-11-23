@@ -30,16 +30,20 @@
 
 | 🧩 Pattern | 💭 Concept | ⏱ Time Complexity |
 |:---:|:---|:---:|
-| **2-Pointer** | Use two indices to traverse efficiently | `O(n)` |
-| **Sliding Window** | Efficient subarray/substring processing | `O(n)` |
-| **Slow & Fast Pointers** | Cycle detection & middle finding | `O(n)` |
-| **Kadane's Algo** | Maximum subarray problems | `O(n)` |
-| **Merge Interval** | Handle overlapping intervals | `O(n log n)` |
-| **Prefix Sum** | Fast range sum queries | `O(n)` |
-| **Recursion** | Solve using smaller subproblems | `Depends` |
-| **Binary Search** | Search in sorted space | `O(log n)` |
-| **Backtracking** | Try → Explore → Undo | `Exponential` |
-| **Stack Pattern** | LIFO-based problems | `O(1)` push/pop |
+| [**2-Pointer**](./2-pointer) | Use two indices to traverse efficiently | `O(n)` |
+| [**Sliding Window**](./Sliding%20Window) | Efficient subarray/substring processing | `O(n)` |
+| [**Slow & Fast Pointers**](./Slow%20%26%20Fast%20Pointers) | Cycle detection & middle finding | `O(n)` |
+| [**Kadane's Algo**](./Kadane's%20Algo) | Maximum subarray problems | `O(n)` |
+| [**Merge Interval**](./Merge%20Interval) | Handle overlapping intervals | `O(n log n)` |
+| [**Prefix Sum**](./Prefix%20Sum) | Fast range sum queries | `O(n)` |
+| [**Binary Search**](./Binary%20Search) | Search in sorted space | `O(log n)` |
+| [**Stack Pattern**](./Stack%20Pattern) | LIFO-based problems | `O(1)` push/pop |
+| [**Recursion & Backtracking**](./Recursion%20%26%20Backtracking) | Smaller subproblems · Try → Explore → Undo | `Exponential` |
+| [**Backtracking**](./Backtracking) | Explore all choices, undo, try next | `Exponential` |
+| [**Bit Manipulation**](./Bit%20Manipulation) | Work directly on the bits of numbers | `O(1)` – `O(log n)` |
+| [**Math (Common sense logic)**](./Math%20(Common%20sense%20logic)) | Observation & logic-based problems | `Varies` |
+| [**Greedy Approach**](./Greedy%20Approch) | Best local choice at every step | `Usually O(n log n)` |
+| [**Trees & Related Algorithms**](./Trees%20%26%20Related%20Algorithms) | Tree traversals & related problems | `O(n)` |
 
 </div>
 
@@ -50,7 +54,7 @@
 <h2 align="center">🗂 Repository Structure</h2>
 
 ```text
-DSA-Patterns/
+DSA/
 │
 ├── 📁 2-pointer/
 ├── 📁 Sliding Window/
@@ -58,10 +62,34 @@ DSA-Patterns/
 ├── 📁 Kadane's Algo/
 ├── 📁 Merge Interval/
 ├── 📁 Prefix Sum/
-├── 📁 Recursion & Backtracking/
 ├── 📁 Binary Search/
-└── 📁 Stack Pattern/
+├── 📁 Stack Pattern/
+├── 📁 Recursion & Backtracking/
+├── 📁 Backtracking/
+├── 📁 Bit Manipulation/
+├── 📁 Math (Common sense logic)/
+├── 📁 Greedy Approch/
+├── 📁 Trees & Related Algorithms/
+├── ⚙️  scripts/              → auto-updates the progress tracker
+├── ⚙️  .github/workflows/    → GitHub Actions automation
+└── 📅 DAY_1 … DAY_80         → my daily solutions (day-wise log)
 ```
+
+<br>
+
+---
+
+<h2 align="center">📅 Daily Solutions Log</h2>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Daily_Files-DAY_1_→_DAY_80-00F7FF?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Commits-779+-7B2FF7?style=for-the-badge&labelColor=0d1117" />
+
+</div>
+
+Alongside the pattern folders, my day-wise solutions are saved in the repo root as `DAY_1` … `DAY_80`.
+👉 [Browse the daily files](https://github.com/KunalP22-me/DSA)
 
 <br>
 
