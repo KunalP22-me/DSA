@@ -83,7 +83,7 @@ DSA/
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Daily_Files-DAY_1_→_DAY_80-00F7FF?style=for-the-badge&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/Daily_Files-DAY_1_→_DAY_200+-00F7FF?style=for-the-badge&labelColor=0d1117" />
 <img src="https://img.shields.io/badge/Commits-779+-7B2FF7?style=for-the-badge&labelColor=0d1117" />
 
 </div>
