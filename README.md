@@ -186,7 +186,7 @@ flowchart LR
 <td><b>Math (Common sense logic)</b></td>
 
 <td>
-<img src="https://progress-bar.xyz/140/?title=Progress&width=250" />
+<img src="https://progress-bar.xyz/142/?title=Progress&width=250" />
 </td>
 
 </tr>
